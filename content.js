@@ -21,6 +21,7 @@ chrome.runtime.onMessage.addListener(
   
   function start(){
       alert("started!!!");
+      
       setInterval(function(){ 
         var commentsMax = parseInt($(".count-text").text());    
         var commentCount = parseInt($("#contents").children.length);
